@@ -1,5 +1,4 @@
 # ReveseShell
 
-D
-
-# attacker.SH
+### attacker.SH
+ksakjdksajd 'sudo su' kjjsdfs
