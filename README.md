@@ -1,6 +1,8 @@
 # ReveseShell
 
-### **Para que los ReverseShells funcionen correctamente tendra que tener instaladas dos herramientas:**
+***Es importante saber que tipo de shell tiene su GNU/LINUX, para visualizar la shell ejecute `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que usted tiene, en mi caso obtengo *"/bin/bash"* asi que yo tendria que ejecutar `bash ReverseShell`.***
+
+### **Para que los ReverseShells funcionen correctamente en la posicion de atacante, tendra que tener instaladas dos herramientas:**
 
 1. ***NETCAT, para tener su maquina en escucha y poder recibir la shell de la victima, cuando esta ejecute algun ReverseShell.***
 
@@ -17,12 +19,8 @@ sudo apt-get install rlwrap
 
 #### VICTIMA:
 ##### ReverseShell.sh
-Debe ser ejecutado con el tipo de shell que su sistema GNU/LINUX tiene, puede hacerlo de dos maneras.
-
-1. Para visualizar la shell de su GNU/LINUX ejecute `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que usted tiene, en mi caso obtengo *"/bin/bash"* asi que tendria que ejecutar `bash ReverseShell.sh`.
-
-2. Esta manera es la mas simple y rapida, personalmente mi favorita porque funciona con todas las distribuciones GNU/LINUX, puede ejecutar directamente en la terminal `$SHELL ReverseShell.sh`.
+Debe ser ejecutado con la shell que tiene el GNU/LINUX de la victima o con el comando `$SHELL`.
 
 #### ATACANTE:
 ##### Attacker.sh
-Debe ser ejecutado con el comando `$SHELL`.
+Debe ser ejecutado con la shell que tiene su GNU/LINUX o con el comando `$SHELL`.
