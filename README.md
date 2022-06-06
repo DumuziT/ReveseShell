@@ -25,4 +25,4 @@ Debe ser ejecutado con el tipo de shell que su sistema GNU/LINUX tiene, puede ha
 
 #### ATACANTE:
 ##### Attacker.sh
-Debe ser ejecutado con el comando `netcat`, puede descargar este paquete con el siguiente comando `sudo apt-get install netcat`.
+Debe ser ejecutado con el comando `$SHELL`.
