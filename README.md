@@ -1,4 +1,4 @@
-# ReveseShell
+# ReveseShell LINUX
 
 ***Es importante saber que tipo de shell tiene su GNU/LINUX, para visualizar la shell ejecute `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que usted tiene, en mi caso obtengo *"/bin/bash"* asi que yo tendria que ejecutar `bash ReverseShell`.***
 
