@@ -1,7 +1,7 @@
 # ReveseShell LINUX
 
-1. [Español]()
-2. [English]()
+1. [Español](https://github.com/DumuziT/ReveseShell#Español)
+2. [English](https://github.com/DumuziT/ReveseShell#English)
 
 ## Español
 
@@ -30,9 +30,7 @@ Debe ejecutarse con el shell GNU/LINUX de la víctima o con el comando `$SHELL`.
 ##### Atacante.sh
 Debe ejecutarse con el shell que tenga su GNU/LINUX o con el comando `$SHELL`.
 
-
-
-# ReveseShell LINUX
+## English
 
 ***It is important to know what type of shell your GNU/LINUX has, to show the shell execute `echo $SHELL` in the TERMINAL, the response to this command is the type of shell you have, in my case I get "/ bin/bash", so you would have to run `bash ReverseShell`.***
 
