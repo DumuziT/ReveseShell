@@ -1,14 +1,14 @@
 # ReveseShell LINUX
 
-***Es importante saber que tipo de shell tiene su GNU/LINUX, para visualizar la shell ejecute `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que usted tiene, en mi caso obtengo *"/bin/bash"* asi que yo tendria que ejecutar `bash ReverseShell`.***
+***Es importante saber que tipo de shell tiene tu GNU/LINUX, para mostrar el shell ejecuta `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que tienes, en mi caso obtengo " /bin/bash", así que tendría que ejecutar `bash ReverseShell`.***
 
-### **Para que los ReverseShells funcionen correctamente en la posicion de atacante, tendra que tener instaladas dos herramientas:**
+### **Para que los ReverseShells funcionen correctamente en la posición de atacante, deberá tener dos herramientas instaladas:**
 
-1. ***NETCAT, para tener su maquina en escucha y poder recibir la shell de la victima, cuando esta ejecute algun ReverseShell.***
+1. ***NETCAT, para tener su máquina en escucha y poder recibir el shell de la víctima, cuando esta ejecute un ReverseShell.***
 
-2. ***RLWRAP, es una utilidad que nos mejora un la movilidad en shells, permite que podamos utilizar atajos de teclado como `Ctrl+L`, o que podamos recuperar comandos previamente usados con la tecla `flecha hacia arriba` (Si hacemos `Ctrl+C` perderemos la shell) siempre que nos pongamos en escucha para recibir una shell, es recomendable usar `rlwrap`.***
+2. ***RLWRAP, es una utilidad que mejora la movilidad en shells, nos permite usar atajos de teclado como `Ctrl+L`, o recuperar comandos usados anteriormente con la tecla `flecha arriba` (si hacemos `Ctrl+C ` perderemos el shell) cada vez que estemos en escucha a un shell, se recomienda usar `rlwrap`.***
 
-### La manera de instalar NETCAT y RLWRAP
+### Cómo instalar NETCAT y RLWRAP
 ```
 sudo apt-get update
 sudo apt-get install netcat
@@ -17,10 +17,10 @@ sudo apt-get install rlwrap
 
 ## BASH
 
-#### VICTIMA:
+#### VÍCTIMA:
 ##### ReverseShell.sh
-Debe ser ejecutado con la shell que tiene el GNU/LINUX de la victima o con el comando `$SHELL`.
+Debe ejecutarse con el shell GNU/LINUX de la víctima o con el comando `$SHELL`.
 
 #### ATACANTE:
-##### Attacker.sh
-Debe ser ejecutado con la shell que tiene su GNU/LINUX o con el comando `$SHELL`.
+##### Atacante.sh
+Debe ejecutarse con el shell que tenga su GNU/LINUX o con el comando `$SHELL`.
