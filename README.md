@@ -129,7 +129,7 @@ sudo apt-get install rlwrap
 - [PYTHON](#python3-1)
 - [PERL](#perl-1)
 - [PHP](#php-1)
-- [POWERSHELL](#powershell-1)
+- [POWERSHELL](#powershell-3)
 
 ## [BASH](#bash-1)
 #### VICTIM:
