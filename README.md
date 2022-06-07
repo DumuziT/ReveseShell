@@ -1,7 +1,7 @@
 # ReveseShell Victima LINUX
 
 1. [Español](#Español)
-2. [English](https://github.com/DumuziT/ReveseShell#English)
+2. [English](#English)
 
 ## Español
 
@@ -24,13 +24,13 @@ sudo apt-get install rlwrap
 - [nc64.exe](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
 
 # Archivos ReverseShell
-- [BASH](https://github.com/DumuziT/ReveseShell#bash)
-- [PYTHON](https://github.com/DumuziT/ReveseShell#python3)
-- [PERL](https://github.com/DumuziT/ReveseShell#perl)
-- [PHP](https://github.com/DumuziT/ReveseShell#php)
-- [POWERSHELL](https://github.com/DumuziT/ReveseShell#powershell)
+- [BASH](#bash)
+- [PYTHON](#python3)
+- [PERL](#perl)
+- [PHP](#php)
+- [POWERSHELL](#powershell)
 
-## [BASH](https://github.com/DumuziT/ReveseShell#bash)
+## [BASH](#bash)
 #### VÍCTIMA:
 ##### ReverseShell.sh
 La victima debe ejecutar este script con su shell GNU/LINUX `$SHELL ReverseShell.sh`.
@@ -41,7 +41,7 @@ La victima debe ejecutar este script con su shell GNU/LINUX `$SHELL ReverseShell
 
 (Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-## Python3
+## [Python3](#python3)
 #### VÍCTIMA:
 ##### ReverseShell.py
 La victima debe ejecutar este script con el "lenguaje de programacion python3" `python3 ReverseShell.py`.
@@ -52,7 +52,7 @@ La victima debe ejecutar este script con el "lenguaje de programacion python3" `
 
 (Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-## PERL
+## [PERL](#perl)
 #### VÍCTIMA:
 ##### ReverseShell.pl
 La victima debe ejecutar este script con el "lenguaje de programacion perl" `perl ReverseShell.pl`.
@@ -63,7 +63,7 @@ La victima debe ejecutar este script con el "lenguaje de programacion perl" `per
 
 (Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-## PHP
+## [PHP](#php)
 #### VÍCTIMA:
 ##### ReverseShell.php
 La victima debe ejecutar este script con el "lenguaje de programacion php" `php ReverseShell.php`.
@@ -74,12 +74,12 @@ La victima debe ejecutar este script con el "lenguaje de programacion php" `php 
 
 (Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-## POWERSHELL
+## [POWERSHELL](#powershell)
 En PowerShell hay dos maneras de hacer un Reverse Shell Connection.
-1. [PowerShell-1](https://github.com/DumuziT/ReveseShell#powershell-1)
-2. [PowerShell-2](https://github.com/DumuziT/ReveseShell#powershell-2)
+1. [PowerShell-1](#powershell-1)
+2. [PowerShell-2](#powershell-2)
 
-## PowerShell-1
+## [PowerShell-1](#powershell-1)
 #### VÍCTIMA:
 ##### ReverseShell.ps1
 La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `pwsh ReverseShell.ps1`.
@@ -90,7 +90,7 @@ La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `
 
 (Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-## PowerShell-2
+## [PowerShell-2](#powershell-2)
 #### VÍCTIMA:
 ##### ReverseShell.ps1
 La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `pwsh ReverseShell.ps1`, llevara a la victima al servidor web que nosotros montaremos para que pueda leer y ejecutar "PowerShellTcp.ps1" y asi iniciar la ReverseShell.
