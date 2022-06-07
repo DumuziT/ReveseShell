@@ -175,12 +175,12 @@ The victim must execute this script with the "php programming language" `php Rev
 
 (Windows) You must go to the directory where "nc.exe" is located and run cmd `nc.exe -nlvp {PORT}` to listen for ReverseShell.
 
-## [POWERSHELL](#powershell-1)
+## [POWERSHELL](#powershell-3)
 In PowerShell there are two ways to do a Reverse Shell Connection.
 1. [PowerShell-1](#powershell-1-1)
 2. [PowerShell-2](#powershell-2-1)
 
-## PowerShell-1
+## [PowerShell-1](#powershell-1-1)
 #### VICTIM:
 ##### ReverseShell.ps1
 The victim must execute this script with the "PowerShell scripting language" `pwsh ReverseShell.ps1`.
@@ -191,7 +191,7 @@ The victim must execute this script with the "PowerShell scripting language" `pw
 
 (Windows) You must go to the directory where "nc.exe" is located and run cmd `nc.exe -nlvp {PORT}` to listen for ReverseShell.
 
-## PowerShell-2
+## [PowerShell-2](#powershell-2-1)
 #### VICTIM:
 ##### ReverseShell.ps1
 The victim should run this script with the "PowerShell scripting language" `pwsh ReverseShell.ps1`, it will take the victim to the web server that we will set up so that she can read and execute "PowerShellTcp.ps1" and start the ReverseShell.
