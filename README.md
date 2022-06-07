@@ -24,11 +24,11 @@ sudo apt-get install rlwrap
 - [nc64.exe](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
 
 # Archivos ReverseShell
-- [BASH](https://github.com/DumuziT/ReveseShell/README.md#bash)
-- [PYTHON](https://github.com/DumuziT/ReveseShell/README.md#python3)
-- [PERL](https://github.com/DumuziT/ReveseShell/README.md#perl)
-- [PHP](https://github.com/DumuziT/ReveseShell/README.md#php)
-- [POWERSHELL](https://github.com/DumuziT/ReveseShell/README.md#powershell)
+- [BASH](https://github.com/DumuziT/ReveseShell#bash)
+- [PYTHON](https://github.com/DumuziT/ReveseShell#python3)
+- [PERL](https://github.com/DumuziT/ReveseShell#perl)
+- [PHP](https://github.com/DumuziT/ReveseShell#php)
+- [POWERSHELL](https://github.com/DumuziT/ReveseShell#powershell)
 
 ## BASH
 #### VÍCTIMA:
@@ -76,8 +76,8 @@ La victima debe ejecutar este script con el "lenguaje de programacion php" `php 
 
 ## POWERSHELL
 En PowerShell hay dos maneras de hacer un Reverse Shell Connection.
-1. [PowerShell-1](https://github.com/DumuziT/ReveseShell/README.md#powershell-1)
-2. [PowerShell-2](https://github.com/DumuziT/ReveseShell/README.md#powershell-2)
+1. [PowerShell-1](https://github.com/DumuziT/ReveseShell#powershell-1)
+2. [PowerShell-2](https://github.com/DumuziT/ReveseShell#powershell-2)
 
 ## PowerShell-1
 #### VÍCTIMA:
