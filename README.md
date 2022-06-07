@@ -1,4 +1,4 @@
-# ReveseShell Victima LINUX
+# ReveseShell VICTIM LINUX
 
 1. [Español](#Español)
 2. [English](#English)
@@ -81,7 +81,7 @@ En PowerShell hay dos maneras de hacer un Reverse Shell Connection.
 
 ## [PowerShell-1](#powershell-1)
 #### VÍCTIMA:
-##### ReverseShell.ps1
+##### ReverseShell1.ps1
 La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `pwsh ReverseShell.ps1`.
 
 #### ATACANTE:
@@ -92,7 +92,7 @@ La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `
 
 ## [PowerShell-2](#powershell-2)
 #### VÍCTIMA:
-##### ReverseShell.ps1
+##### ReverseShell2.ps1
 La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `pwsh ReverseShell.ps1`, llevara a la victima al servidor web que nosotros montaremos para que pueda leer y ejecutar "PowerShellTcp.ps1" y asi iniciar la ReverseShell.
 
 #### ATACANTE:
@@ -182,7 +182,7 @@ In PowerShell there are two ways to do a Reverse Shell Connection.
 
 ## [PowerShell-1](#powershell-1-1)
 #### VICTIM:
-##### ReverseShell.ps1
+##### ReverseShell1.ps1
 The victim must execute this script with the "PowerShell scripting language" `pwsh ReverseShell.ps1`.
 
 #### ATTACKER:
@@ -193,7 +193,7 @@ The victim must execute this script with the "PowerShell scripting language" `pw
 
 ## [PowerShell-2](#powershell-2-1)
 #### VICTIM:
-##### ReverseShell.ps1
+##### ReverseShell2.ps1
 The victim should run this script with the "PowerShell scripting language" `pwsh ReverseShell.ps1`, it will take the victim to the web server that we will set up so that she can read and execute "PowerShellTcp.ps1" and start the ReverseShell.
 
 #### ATTACKER:
