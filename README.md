@@ -1,4 +1,4 @@
-# ReveseShell LINUX
+# ReveseShell Victima LINUX
 
 1. [Español](https://github.com/DumuziT/ReveseShell#Español)
 2. [English](https://github.com/DumuziT/ReveseShell#English)
@@ -9,67 +9,96 @@
 
 ### **Para que los ReverseShells funcionen correctamente en la posición de atacante, deberá tener dos herramientas instaladas:**
 
-1. ***NETCAT(Linux/Windows), para tener su máquina en escucha y poder recibir el shell de la víctima, cuando esta ejecute un ReverseShell.***
+1. ***NETCAT(Linux/Windows), para tener tu máquina en escucha antes de que la victima ejecute el ReverseShell.***
 
 2. ***RLWRAP(Linux), es una utilidad que mejora la movilidad en shells, nos permite usar atajos de teclado como `Ctrl+L`, o recuperar comandos usados anteriormente con la tecla `flecha arriba` (si hacemos `Ctrl+C ` perderemos el shell) cada vez que estemos en escucha a un shell, se recomienda usar `rlwrap`.***
 
-### Cómo instalar NETCAT y RLWRAP (GNU/LINUX)
+### Instalar NETCAT y RLWRAP (GNU/LINUX)
 ```
 sudo apt-get update
 sudo apt-get install netcat
 sudo apt-get install rlwrap
 ```
-### Cómo instalar NETCAT (Windows)
+### Instalar NETCAT (Windows)
 - [nc32.exe](https://github.com/int0x33/nc.exe/blob/master/nc.exe)
 - [nc64.exe](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
 
-## BASH
+# Archivos ReverseShell
+- [BASH](https://github.com/DumuziT/ReveseShell/README.md#bash)
+- [PYTHON](https://github.com/DumuziT/ReveseShell/README.md#python3)
+- [PERL](https://github.com/DumuziT/ReveseShell/README.md#perl)
+- [PHP](https://github.com/DumuziT/ReveseShell/README.md#php)
+- [POWERSHELL](https://github.com/DumuziT/ReveseShell/README.md#powershell)
 
+## BASH
 #### VÍCTIMA:
 ##### ReverseShell.sh
-La victima debe ejecutar este programa con su shell GNU/LINUX `$SHELL ReverseShell.sh`.
+La victima debe ejecutar este script con su shell GNU/LINUX `$SHELL ReverseShell.sh`.
 
 #### ATACANTE:
-##### Atacante.sh
-Debe ejecutarse con el shell que tenga su GNU/LINUX.
+##### Atacante
+(GNU/LINUX) Debe ejecutar en la terminal `rlwrap netcat -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
+(Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
+
+## Python3
+#### VÍCTIMA:
+##### ReverseShell.py
+La victima debe ejecutar este script con el "lenguaje de programacion python3" `python3 ReverseShell.py`.
+
+#### ATACANTE:
+##### Atacante
+(GNU/LINUX) Debe ejecutar en la terminal `rlwrap netcat -nlvp {PORT}` para estar a la escucha del ReverseShell.
+
+(Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
 ## PERL
-
 #### VÍCTIMA:
 ##### ReverseShell.pl
-La victima debe ejecutar este programa con el "lenguaje de programacion perl" utilizando el comando `perl ReverseShell.pl`.
+La victima debe ejecutar este script con el "lenguaje de programacion perl" `perl ReverseShell.pl`.
 
 #### ATACANTE:
-##### Atacante.sh
-Debe ejecutarse con el shell que tenga su GNU/LINUX o con el comando `$SHELL`.
+##### Atacante
+(GNU/LINUX) Debe ejecutar en la terminal `rlwrap netcat -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
+(Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
+## PHP
+#### VÍCTIMA:
+##### ReverseShell.php
+La victima debe ejecutar este script con el "lenguaje de programacion php" `php ReverseShell.php`.
 
+#### ATACANTE:
+##### Atacante
+(GNU/LINUX) Debe ejecutar en la terminal `rlwrap netcat -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-## English
+(Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-***It is important to know what type of shell your GNU/LINUX has, to show the shell execute `echo $SHELL` in the TERMINAL, the response to this command is the type of shell you have, in my case I get "/ bin/bash", so you would have to run `bash ReverseShell`.***
+## POWERSHELL
+En PowerShell hay dos maneras de hacer un Reverse Shell Connection.
+1. [PowerShell-1](https://github.com/DumuziT/ReveseShell/README.md#powershell-1)
+2. [PowerShell-2](https://github.com/DumuziT/ReveseShell/README.md#powershell-2)
 
-### **For ReverseShells to work properly at the attacker's position, you will need to have two tools installed:**
+## PowerShell-1
+#### VÍCTIMA:
+##### ReverseShell.ps1
+La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `pwsh ReverseShell.ps1`.
 
-1. ***NETCAT, to have your machine listening and to be able to receive the shell of the victim, when it executes a ReverseShell.***
+#### ATACANTE:
+##### Atacante
+(GNU/LINUX) Debe ejecutar en la terminal `rlwrap netcat -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-2. ***RLWRAP, is a utility that improves mobility in shells, it allows us to use keyboard shortcuts like `Ctrl+L`, or recover previously used commands with the `up arrow` key (if we do `Ctrl+ C ` we will lose the shell) every time we listen to a shell, it is recommended to use `rlwrap`.***
+(Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-### How to install NETCAT and RLWRAP
-```
-sudo apt-get update
-sudo apt-get install netcat
-sudo apt-get install rlwrap
-```
+## PowerShell-2
+#### VÍCTIMA:
+##### ReverseShell.ps1
+La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `pwsh ReverseShell.ps1`, llevara a la victima al servidor web que nosotros montaremos para que pueda leer y ejecutar "PowerShellTcp.ps1" y asi iniciar la ReverseShell.
 
-## BASH
+#### ATACANTE:
+**El atacante debe ejecutar dos scripts, uno "Shell" y el otro "Python3" o "Python2"**
+##### Atacante
+1. - (GNU/LINUX) Debe ejecutar en la terminal `rlwrap netcat -nlvp {PORT}` para estar a la escucha del ReverseShell.
+   - (Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-#### VICTIM:
-##### ReverseShell.sh
-It must be run with the victim's GNU/LINUX shell or with the `$SHELL` command.
-
-#### ATTACKER:
-##### Attacker.sh
-It must be run with whatever shell your GNU/LINUX has or with the `$SHELL` command.
+2. Ejecutar en la terminal `python3 -m http.server 8080` o `python2 -m SimpleHTTPServer 8080` para crear un servidor web en el directorio que se encuentra el archivo "PowerShellTcp.ps1" y asi cuando la victima ejecute su ReverseShell nosotros poder conectarnos.
