@@ -125,13 +125,13 @@ sudo apt-get install rlwrap
 - [nc64.exe](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
 
 # ReverseShell files
-- [BASH](https://github.com/DumuziT/ReveseShell#bash)
-- [PYTHON](https://github.com/DumuziT/ReveseShell#python3)
-- [PERL](https://github.com/DumuziT/ReveseShell#perl)
-- [PHP](https://github.com/DumuziT/ReveseShell#php)
-- [POWERSHELL](https://github.com/DumuziT/ReveseShell#powershell)
+- [BASH](#bash-1)
+- [PYTHON](#python3-1)
+- [PERL](#perl-1)
+- [PHP](#php-1)
+- [POWERSHELL](#powershell-1)
 
-## [BASH](https://github.com/DumuziT/ReveseShell#bash)
+## [BASH](#bash-1)
 #### VICTIM:
 ##### ReverseShell.sh
 The victim must run this script with their GNU/LINUX shell `$SHELL ReverseShell.sh`.
@@ -142,7 +142,7 @@ The victim must run this script with their GNU/LINUX shell `$SHELL ReverseShell.
 
 (Windows) You must go to the directory where "nc.exe" is located and run cmd `nc.exe -nlvp {PORT}` to listen for ReverseShell.
 
-## Python3
+## [Python3](#python3-1)
 #### VICTIM:
 ##### ReverseShell.py
 The victim must run this script with the "python3 programming language" `python3 ReverseShell.py`.
@@ -153,7 +153,7 @@ The victim must run this script with the "python3 programming language" `python3
 
 (Windows) You must go to the directory where "nc.exe" is located and run cmd `nc.exe -nlvp {PORT}` to listen for ReverseShell.
 
-## PERL
+## [PERL](#perl-1)
 #### VICTIM:
 ##### ReverseShell.pl
 The victim must run this script with the "perl programming language" `perl ReverseShell.pl`.
@@ -164,7 +164,7 @@ The victim must run this script with the "perl programming language" `perl Rever
 
 (Windows) You must go to the directory where "nc.exe" is located and run cmd `nc.exe -nlvp {PORT}` to listen for ReverseShell.
 
-##PHP
+## [PHP](#php-1)
 #### VICTIM:
 ##### ReverseShell.php
 The victim must execute this script with the "php programming language" `php ReverseShell.php`.
@@ -175,10 +175,10 @@ The victim must execute this script with the "php programming language" `php Rev
 
 (Windows) You must go to the directory where "nc.exe" is located and run cmd `nc.exe -nlvp {PORT}` to listen for ReverseShell.
 
-##POWERSHELL
+## [POWERSHELL](#powershell-1)
 In PowerShell there are two ways to do a Reverse Shell Connection.
-1. [PowerShell-1](https://github.com/DumuziT/ReveseShell#powershell-1)
-2. [PowerShell-2](https://github.com/DumuziT/ReveseShell#powershell-2)
+1. [PowerShell-1](#powershell-1-1)
+2. [PowerShell-2](#powershell-2-1)
 
 ## PowerShell-1
 #### VICTIM:
