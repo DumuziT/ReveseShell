@@ -5,30 +5,47 @@
 
 ## Español
 
-***Es importante saber que tipo de shell tiene tu GNU/LINUX, para mostrar el shell ejecuta `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que tienes, en mi caso obtengo " /bin/bash", así que tendría que ejecutar `bash ReverseShell`.***
+***Como atacante, si su sistema operativo es "GNU/LINUX", es importante saber que tipo de shell tiene tu maquina, para mostrar el shell ejecuta `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que tienes, en mi caso obtengo "/bin/bash", así que tendría que ejecutar `bash ReverseShell`. Si su sistema operativo es "Windows", sabemos que tenemos la "cmd.exe" pero es importante tener espacio en su disco duro para poder descargar [nc.exe](https://github.com/int0x33/nc.exe/)***
 
 ### **Para que los ReverseShells funcionen correctamente en la posición de atacante, deberá tener dos herramientas instaladas:**
 
-1. ***NETCAT, para tener su máquina en escucha y poder recibir el shell de la víctima, cuando esta ejecute un ReverseShell.***
+1. ***NETCAT(Linux/Windows), para tener su máquina en escucha y poder recibir el shell de la víctima, cuando esta ejecute un ReverseShell.***
 
-2. ***RLWRAP, es una utilidad que mejora la movilidad en shells, nos permite usar atajos de teclado como `Ctrl+L`, o recuperar comandos usados anteriormente con la tecla `flecha arriba` (si hacemos `Ctrl+C ` perderemos el shell) cada vez que estemos en escucha a un shell, se recomienda usar `rlwrap`.***
+2. ***RLWRAP(Linux), es una utilidad que mejora la movilidad en shells, nos permite usar atajos de teclado como `Ctrl+L`, o recuperar comandos usados anteriormente con la tecla `flecha arriba` (si hacemos `Ctrl+C ` perderemos el shell) cada vez que estemos en escucha a un shell, se recomienda usar `rlwrap`.***
 
-### Cómo instalar NETCAT y RLWRAP
+### Cómo instalar NETCAT y RLWRAP (GNU/LINUX)
 ```
 sudo apt-get update
 sudo apt-get install netcat
 sudo apt-get install rlwrap
 ```
+### Cómo instalar NETCAT (Windows)
+- [nc32.exe](https://github.com/int0x33/nc.exe/blob/master/nc.exe)
+- [nc64.exe](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
 
 ## BASH
 
 #### VÍCTIMA:
 ##### ReverseShell.sh
-Debe ejecutarse con el shell GNU/LINUX de la víctima o con el comando `$SHELL`.
+La victima debe ejecutar este programa con su shell GNU/LINUX `$SHELL ReverseShell.sh`.
+
+#### ATACANTE:
+##### Atacante.sh
+Debe ejecutarse con el shell que tenga su GNU/LINUX.
+
+
+## PERL
+
+#### VÍCTIMA:
+##### ReverseShell.pl
+La victima debe ejecutar este programa con el "lenguaje de programacion perl" utilizando el comando `perl ReverseShell.pl`.
 
 #### ATACANTE:
 ##### Atacante.sh
 Debe ejecutarse con el shell que tenga su GNU/LINUX o con el comando `$SHELL`.
+
+
+
 
 ## English
 
