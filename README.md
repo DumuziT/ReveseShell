@@ -1,6 +1,6 @@
 # ReveseShell Victima LINUX
 
-1. [Español](https://github.com/DumuziT/ReveseShell#Español)
+1. [Español](#Español)
 2. [English](https://github.com/DumuziT/ReveseShell#English)
 
 ## Español
