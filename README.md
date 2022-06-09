@@ -104,8 +104,6 @@ La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `
 
 ## English
 
-***As an attacker, if your operating system is "GNU/LINUX", it is important to know what type of shell your machine has, to show the shell run `echo $SHELL` in the TERMINAL, the response to this command is the type shell you have, in my case I get "/bin/bash", so I would have to run `bash ReverseShell`. If your operating system is "Windows", we know that we have the "cmd.exe" but it is important to have space on your hard drive to be able to download [nc.exe](https://github.com/int0x33/nc.exe/ )***
-
 ### **For ReverseShells to work properly in the attacker position, you will need to have two tools installed:**
 
 1. ***NETCAT(Linux/Windows), to have your machine listen before the victim runs ReverseShell.***
