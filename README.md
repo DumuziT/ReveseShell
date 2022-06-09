@@ -5,8 +5,6 @@
 
 ## Español
 
-***Como atacante, si su sistema operativo es "GNU/LINUX", es importante saber que tipo de shell tiene tu maquina, para mostrar el shell ejecuta `echo $SHELL` en la TERMINAL, la respuesta a este comando es el tipo de shell que tienes, en mi caso obtengo "/bin/bash", así que tendría que ejecutar `bash ReverseShell`. Si su sistema operativo es "Windows", sabemos que tenemos la "cmd.exe" pero es importante tener espacio en su disco duro para poder descargar [nc.exe](https://github.com/int0x33/nc.exe/)***
-
 ### **Para que los ReverseShells funcionen correctamente en la posición de atacante, deberá tener dos herramientas instaladas:**
 
 1. ***NETCAT(Linux/Windows), para tener tu máquina en escucha antes de que la victima ejecute el ReverseShell.***
