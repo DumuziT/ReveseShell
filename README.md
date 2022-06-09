@@ -11,13 +11,13 @@
 
 2. ***RLWRAP(Linux), es una utilidad que mejora la movilidad en shells, nos permite usar atajos de teclado como `Ctrl+L`, o recuperar comandos usados anteriormente con la tecla `flecha arriba` (si hacemos `Ctrl+C ` perderemos el shell) cada vez que estemos en escucha a un shell, se recomienda usar `rlwrap`.***
 
-### Instalar NETCAT y RLWRAP (GNU/LINUX)
+### (GNU/LINUX) Instalar NETCAT y RLWRAP
 ```
 sudo apt-get update
 sudo apt-get install netcat
 sudo apt-get install rlwrap
 ```
-### Instalar NETCAT (Windows)
+### (Windows) Instalar NETCAT
 - [nc32.exe](https://github.com/int0x33/nc.exe/blob/master/nc.exe)
 - [nc64.exe](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
 
@@ -110,13 +110,13 @@ La victima debe ejecutar este script con el "lenguaje de scripting PowerShell" `
 
 2. ***RLWRAP(Linux), is a utility that improves mobility in shells, it allows us to use keyboard shortcuts like `Ctrl+L`, or recover previously used commands with the `up arrow` key (if we do `Ctrl +C ` we will lose the shell) whenever we are listening to a shell, it is recommended to use `rlwrap`.***
 
-### Install NETCAT and RLWRAP (GNU/LINUX)
+### (GNU/LINUX) Install NETCAT and RLWRAP
 ```
 sudo apt-get update
 sudo apt-get install netcat
 sudo apt-get install rlwrap
 ```
-### Install NETCAT (Windows)
+### (Windows) Install NETCAT
 - [nc32.exe](https://github.com/int0x33/nc.exe/blob/master/nc.exe)
 - [nc64.exe](https://github.com/int0x33/nc.exe/blob/master/nc64.exe)
 
